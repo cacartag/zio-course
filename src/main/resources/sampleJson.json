@@ -1,0 +1,1166 @@
+{
+  "salesOrder": {
+    "version": "3.0.0",
+    "status": "COMPLETED",
+    "salesOrderHeader": {
+      "orderId": "059f00c1-5b5a-4150-8b7b-7dc8f61938b0",
+      "customerOrderId": "00231415153032829222",
+      "customerSurveyId": "7SK656RZH3",
+      "terminalTransactionId": 4491,
+      "orderTime": "2023-08-09T17:50:26-05:00",
+      "subTotal": 0.0,
+      "totalTax": 0,
+      "total": 0.0,
+      "amountDueToCustomer": 0.0,
+      "numberOfLines": 21,
+      "businessUnit": {
+        "banner": {
+          "code": "WALMART"
+        },
+        "baseDivision": {
+          "code": "1"
+        },
+        "address": {
+          "street": "1415 HIGHWAY 67 S",
+          "city": "POCAHONTAS",
+          "state": "AR",
+          "postalCode": "72455-4000",
+          "country": {
+            "countryCode": "US"
+          }
+        },
+        "terminal": {
+          "id": 35
+        },
+        "associate": {
+          "deviceOperatorId": "9035"
+        },
+        "number": 71,
+        "country": {
+          "countryCode": "US"
+        }
+      }
+    },
+    "customer": {},
+    "payment": [
+      {
+        "rewardsAmount": 0,
+        "paymentAuthorization": [
+          {
+            "status": "COMPLETED",
+            "authorizedCashbackAmount": 0.0,
+            "settlementMethod": "INTERNAL",
+            "paymentCardAuthorization": {
+              "wicAuthorization": {
+                "wicState": "AR",
+                "wicIssuingEntity": "000242308070000",
+                "wicDeviceStartDate": "2023-08-01",
+                "wicDeviceEndDate": "2023-08-31",
+                "crcSequenceNumber": "1",
+                "wicCryptogram": "8101158204F6390F2D83040000004684045D639C86",
+                "wicDiscountApplied": 0.0,
+                "wicItemCount": 4
+              }
+            },
+            "authMethod": {},
+            "authorizedAmount": 13.68,
+            "timeStamp": "2023-08-09T17:44:51-05:00",
+            "referenceNumber": "0",
+            "networkId": "0048",
+            "authorizerId": "0"
+          }
+        ],
+        "paymentType": "CARD",
+        "id": "96578793-a533-3714-afda-7b27f3c507f0",
+        "status": "COMPLETED",
+        "timeStamp": "2023-08-09T17:44:51-05:00",
+        "total": 13.68,
+        "tenderAmount": 13.68,
+        "cashbackAmount": 0.0,
+        "cardEntryMethodCode": "SWIPE",
+        "paymentInstrument": {
+          "type": "GOVERNMENT",
+          "paymentCard": {
+            "nonPciCardNumber": "6102926101593051",
+            "suffixDigits": "3051",
+            "brandSubType": "EWIC",
+            "bin": "610292"
+          }
+        },
+        "authorization": [
+          {
+            "status": "COMPLETED",
+            "authorizedCashbackAmount": 0.0,
+            "settlementMethod": "INTERNAL",
+            "paymentCardAuthorization": {
+              "wicAuthorization": {
+                "wicState": "AR",
+                "wicIssuingEntity": "000242308070000",
+                "wicDeviceStartDate": "2023-08-01",
+                "wicDeviceEndDate": "2023-08-31",
+                "crcSequenceNumber": "1",
+                "wicCryptogram": "8101158204F6390F2D83040000004684045D639C86",
+                "wicDiscountApplied": 0.0,
+                "wicItemCount": 4
+              }
+            },
+            "authMethod": {},
+            "authorizedAmount": 13.68,
+            "timeStamp": "2023-08-09T17:44:51-05:00",
+            "referenceNumber": "0",
+            "networkId": "0048",
+            "authorizerId": "0"
+          }
+        ],
+        "type": "CARD",
+        "legacy_tenderType": "WIC_TENDER"
+      },
+      {
+        "rewardsAmount": 0,
+        "paymentAuthorization": [
+          {
+            "status": "COMPLETED",
+            "authorizedCashbackAmount": 0.0,
+            "settlementMethod": "INTERNAL",
+            "paymentCardAuthorization": {
+              "wicAuthorization": {
+                "wicState": "AR",
+                "wicIssuingEntity": "000242308070000",
+                "wicDeviceStartDate": "2023-08-01",
+                "wicDeviceEndDate": "2023-08-31",
+                "crcSequenceNumber": "1",
+                "wicCryptogram": "8101158204F6390F2D83040000004684045D639C86",
+                "wicDiscountApplied": 0.0,
+                "wicItemCount": 4
+              }
+            },
+            "authMethod": {},
+            "authorizedAmount": -13.68,
+            "timeStamp": "2023-08-09T17:44:51-05:00",
+            "referenceNumber": "0",
+            "networkId": "0048",
+            "authorizerId": "0"
+          }
+        ],
+        "paymentType": "CARD",
+        "id": "44e342d5-6146-3515-aa90-133aa73b2e84",
+        "status": "COMPLETED",
+        "timeStamp": "2023-08-09T17:44:51-05:00",
+        "total": -13.68,
+        "tenderAmount": -13.68,
+        "cashbackAmount": 0.0,
+        "cardEntryMethodCode": "SWIPE",
+        "paymentInstrument": {
+          "type": "GOVERNMENT",
+          "paymentCard": {
+            "nonPciCardNumber": "6102926101593051",
+            "suffixDigits": "3051",
+            "brandSubType": "EWIC",
+            "bin": "610292"
+          }
+        },
+        "authorization": [
+          {
+            "status": "COMPLETED",
+            "authorizedCashbackAmount": 0.0,
+            "settlementMethod": "INTERNAL",
+            "paymentCardAuthorization": {
+              "wicAuthorization": {
+                "wicState": "AR",
+                "wicIssuingEntity": "000242308070000",
+                "wicDeviceStartDate": "2023-08-01",
+                "wicDeviceEndDate": "2023-08-31",
+                "crcSequenceNumber": "1",
+                "wicCryptogram": "8101158204F6390F2D83040000004684045D639C86",
+                "wicDiscountApplied": 0.0,
+                "wicItemCount": 4
+              }
+            },
+            "authMethod": {},
+            "authorizedAmount": -13.68,
+            "timeStamp": "2023-08-09T17:44:51-05:00",
+            "referenceNumber": "0",
+            "networkId": "0048",
+            "authorizerId": "0"
+          }
+        ],
+        "type": "CARD",
+        "legacy_tenderType": "WIC_TENDER"
+      },
+      {
+        "rewardsAmount": 0,
+        "paymentType": "CASH",
+        "id": "b3f5f915-2201-3577-b48c-de97cfc8bf31",
+        "status": "COMPLETED",
+        "timeStamp": "2023-08-09T17:44:51-05:00",
+        "total": 0.0,
+        "tenderAmount": 0.0,
+        "cashbackAmount": 0.0,
+        "type": "CASH",
+        "legacy_tenderType": "CASH_TENDER_CHG"
+      }
+    ],
+    "salesOrderLineItem": [
+      {
+        "id": "59c6c96f-97a2-38fe-b62c-5fde82bc515e",
+        "entryTime": "2023-08-09T17:42:26-05:00",
+        "lineNumber": 2,
+        "quantity": 0,
+        "uom": "EACH",
+        "subtotal": 0.0,
+        "total": 0,
+        "status": "VOID",
+        "entryMethod": "SCANNED",
+        "businessUnit": {
+          "number": 71,
+          "country": {
+            "countryCode": "US"
+          }
+        },
+        "price": {
+          "amount": 3.42,
+          "extendedAmount": 0,
+          "embeddedAmount": 0,
+          "unitCost": 3.42
+        },
+        "tax": [
+          {
+            "code": "1",
+            "description": "TAX1"
+          }
+        ],
+        "salesOffering": {
+          "id": "553988173",
+          "upc": "0078742351860",
+          "upcType": "UPC_A",
+          "name": "GV WHOLE GAL",
+          "receiptName": "GV WHOLE GAL",
+          "description": "GV WHOLE GAL",
+          "shortDescription": "GV WHOLE GAL",
+          "pricingType": "REGULAR",
+          "department": {
+            "id": 90
+          },
+          "replenishmentType": "QUANTITY",
+          "foodStampEligible": true
+        }
+      },
+      {
+        "id": "956b6b6d-5964-3cb5-af95-8a024d3b949f",
+        "entryTime": "2023-08-09T17:42:34-05:00",
+        "lineNumber": 3,
+        "quantity": 0,
+        "uom": "EACH",
+        "subtotal": 0.0,
+        "total": 0,
+        "status": "VOID",
+        "entryMethod": "SCANNED",
+        "businessUnit": {
+          "number": 71,
+          "country": {
+            "countryCode": "US"
+          }
+        },
+        "price": {
+          "amount": 1.0,
+          "extendedAmount": 0,
+          "embeddedAmount": 0,
+          "unitCost": 1.0
+        },
+        "tax": [
+          {
+            "code": "1",
+            "description": "TAX1"
+          }
+        ],
+        "salesOffering": {
+          "id": "0008380910",
+          "upc": "0715166138040",
+          "upcType": "UPC_A",
+          "name": "SFD SNCKRS",
+          "receiptName": "SFD SNCKRS",
+          "description": "SFD SNCKRS",
+          "shortDescription": "SFD SNCKRS",
+          "pricingType": "REGULAR",
+          "department": {
+            "id": 93
+          },
+          "replenishmentType": "QUANTITY",
+          "foodStampEligible": true
+        }
+      },
+      {
+        "id": "d7bcf9b8-8994-30a8-8464-e97a1428386b",
+        "entryTime": "2023-08-09T17:42:34-05:00",
+        "lineNumber": 4,
+        "quantity": 0,
+        "uom": "EACH",
+        "subtotal": 0.0,
+        "total": 0,
+        "status": "VOID",
+        "entryMethod": "SCANNED",
+        "businessUnit": {
+          "number": 71,
+          "country": {
+            "countryCode": "US"
+          }
+        },
+        "price": {
+          "amount": 1.0,
+          "extendedAmount": 0,
+          "embeddedAmount": 0,
+          "unitCost": 1.0
+        },
+        "tax": [
+          {
+            "code": "1",
+            "description": "TAX1"
+          }
+        ],
+        "salesOffering": {
+          "id": "0008380910",
+          "upc": "0715166138040",
+          "upcType": "UPC_A",
+          "name": "SFD SNCKRS",
+          "receiptName": "SFD SNCKRS",
+          "description": "SFD SNCKRS",
+          "shortDescription": "SFD SNCKRS",
+          "pricingType": "REGULAR",
+          "department": {
+            "id": 93
+          },
+          "replenishmentType": "QUANTITY",
+          "foodStampEligible": true
+        }
+      },
+      {
+        "id": "3c541c98-0804-371e-baa6-8c317b8cb64a",
+        "entryTime": "2023-08-09T17:42:36-05:00",
+        "lineNumber": 5,
+        "quantity": 0,
+        "uom": "EACH",
+        "subtotal": 0.0,
+        "total": 0,
+        "status": "VOID",
+        "entryMethod": "SCANNED",
+        "businessUnit": {
+          "number": 71,
+          "country": {
+            "countryCode": "US"
+          }
+        },
+        "price": {
+          "amount": 1.0,
+          "extendedAmount": 0,
+          "embeddedAmount": 0,
+          "unitCost": 1.0
+        },
+        "tax": [
+          {
+            "code": "1",
+            "description": "TAX1"
+          }
+        ],
+        "salesOffering": {
+          "id": "0008380910",
+          "upc": "0715166138040",
+          "upcType": "UPC_A",
+          "name": "SFD SNCKRS",
+          "receiptName": "SFD SNCKRS",
+          "description": "SFD SNCKRS",
+          "shortDescription": "SFD SNCKRS",
+          "pricingType": "REGULAR",
+          "department": {
+            "id": 93
+          },
+          "replenishmentType": "QUANTITY",
+          "foodStampEligible": true
+        }
+      },
+      {
+        "id": "2fb0655e-4621-3fa9-a079-3cec9fdf0709",
+        "entryTime": "2023-08-09T17:42:37-05:00",
+        "lineNumber": 6,
+        "quantity": 0,
+        "uom": "EACH",
+        "subtotal": 0.0,
+        "total": 0,
+        "status": "VOID",
+        "entryMethod": "SCANNED",
+        "businessUnit": {
+          "number": 71,
+          "country": {
+            "countryCode": "US"
+          }
+        },
+        "price": {
+          "amount": 1.0,
+          "extendedAmount": 0,
+          "embeddedAmount": 0,
+          "unitCost": 1.0
+        },
+        "tax": [
+          {
+            "code": "1",
+            "description": "TAX1"
+          }
+        ],
+        "salesOffering": {
+          "id": "0008380910",
+          "upc": "0715166138040",
+          "upcType": "UPC_A",
+          "name": "SFD SNCKRS",
+          "receiptName": "SFD SNCKRS",
+          "description": "SFD SNCKRS",
+          "shortDescription": "SFD SNCKRS",
+          "pricingType": "REGULAR",
+          "department": {
+            "id": 93
+          },
+          "replenishmentType": "QUANTITY",
+          "foodStampEligible": true
+        }
+      },
+      {
+        "id": "68dea298-b8d3-3845-b7e1-1bf301c4db62",
+        "entryTime": "2023-08-09T17:42:43-05:00",
+        "lineNumber": 7,
+        "quantity": 0,
+        "uom": "EACH",
+        "subtotal": 0.0,
+        "total": 0,
+        "status": "VOID",
+        "entryMethod": "SCANNED",
+        "businessUnit": {
+          "number": 71,
+          "country": {
+            "countryCode": "US"
+          }
+        },
+        "price": {
+          "amount": 5.26,
+          "extendedAmount": 0,
+          "embeddedAmount": 0,
+          "unitCost": 5.26
+        },
+        "tax": [
+          {
+            "code": "1",
+            "description": "TAX1"
+          }
+        ],
+        "salesOffering": {
+          "id": "598568342",
+          "upc": "0765847000660",
+          "upcType": "UPC_A",
+          "name": "AK SNOW LEG",
+          "receiptName": "AK SNOW LEG",
+          "description": "AK SNOW LEG",
+          "shortDescription": "AK SNOW LEG",
+          "pricingType": "REGULAR",
+          "department": {
+            "id": 93
+          },
+          "replenishmentType": "QUANTITY",
+          "foodStampEligible": true
+        }
+      },
+      {
+        "id": "12be03b4-24bd-3c20-b047-2fc4121e0fd7",
+        "entryTime": "2023-08-09T17:42:44-05:00",
+        "lineNumber": 8,
+        "quantity": 0,
+        "uom": "EACH",
+        "subtotal": 0.0,
+        "total": 0,
+        "status": "VOID",
+        "entryMethod": "SCANNED",
+        "businessUnit": {
+          "number": 71,
+          "country": {
+            "countryCode": "US"
+          }
+        },
+        "price": {
+          "amount": 5.26,
+          "extendedAmount": 0,
+          "embeddedAmount": 0,
+          "unitCost": 5.26
+        },
+        "tax": [
+          {
+            "code": "1",
+            "description": "TAX1"
+          }
+        ],
+        "salesOffering": {
+          "id": "598568342",
+          "upc": "0765847000660",
+          "upcType": "UPC_A",
+          "name": "AK SNOW LEG",
+          "receiptName": "AK SNOW LEG",
+          "description": "AK SNOW LEG",
+          "shortDescription": "AK SNOW LEG",
+          "pricingType": "REGULAR",
+          "department": {
+            "id": 93
+          },
+          "replenishmentType": "QUANTITY",
+          "foodStampEligible": true
+        }
+      },
+      {
+        "id": "4f17fb2e-b772-35ad-9e65-71424c50a5e3",
+        "entryTime": "2023-08-09T17:42:45-05:00",
+        "lineNumber": 9,
+        "quantity": 0,
+        "uom": "EACH",
+        "subtotal": 0.0,
+        "total": 0,
+        "status": "VOID",
+        "entryMethod": "SCANNED",
+        "businessUnit": {
+          "number": 71,
+          "country": {
+            "countryCode": "US"
+          }
+        },
+        "price": {
+          "amount": 5.26,
+          "extendedAmount": 0,
+          "embeddedAmount": 0,
+          "unitCost": 5.26
+        },
+        "tax": [
+          {
+            "code": "1",
+            "description": "TAX1"
+          }
+        ],
+        "salesOffering": {
+          "id": "598568342",
+          "upc": "0765847000660",
+          "upcType": "UPC_A",
+          "name": "AK SNOW LEG",
+          "receiptName": "AK SNOW LEG",
+          "description": "AK SNOW LEG",
+          "shortDescription": "AK SNOW LEG",
+          "pricingType": "REGULAR",
+          "department": {
+            "id": 93
+          },
+          "replenishmentType": "QUANTITY",
+          "foodStampEligible": true
+        }
+      },
+      {
+        "id": "0e694b6f-acb3-3386-8f36-c6ea954fa62e",
+        "entryTime": "2023-08-09T17:43:01-05:00",
+        "lineNumber": 10,
+        "quantity": 0,
+        "uom": "EACH",
+        "subtotal": 0.0,
+        "total": 0,
+        "status": "VOID",
+        "entryMethod": "SCANNED",
+        "businessUnit": {
+          "number": 71,
+          "country": {
+            "countryCode": "US"
+          }
+        },
+        "price": {
+          "amount": 5.26,
+          "extendedAmount": 0,
+          "embeddedAmount": 0,
+          "unitCost": 5.26
+        },
+        "tax": [
+          {
+            "code": "1",
+            "description": "TAX1"
+          }
+        ],
+        "salesOffering": {
+          "id": "598568342",
+          "upc": "0765847000660",
+          "upcType": "UPC_A",
+          "name": "AK SNOW LEG",
+          "receiptName": "AK SNOW LEG",
+          "description": "AK SNOW LEG",
+          "shortDescription": "AK SNOW LEG",
+          "pricingType": "REGULAR",
+          "department": {
+            "id": 93
+          },
+          "replenishmentType": "QUANTITY",
+          "foodStampEligible": true
+        }
+      },
+      {
+        "id": "5136cb39-43ac-3269-833c-21e85eea4658",
+        "entryTime": "2023-08-09T17:43:02-05:00",
+        "lineNumber": 11,
+        "quantity": 0,
+        "uom": "EACH",
+        "subtotal": 0.0,
+        "total": 0,
+        "status": "VOID",
+        "entryMethod": "SCANNED",
+        "businessUnit": {
+          "number": 71,
+          "country": {
+            "countryCode": "US"
+          }
+        },
+        "price": {
+          "amount": 5.26,
+          "extendedAmount": 0,
+          "embeddedAmount": 0,
+          "unitCost": 5.26
+        },
+        "tax": [
+          {
+            "code": "1",
+            "description": "TAX1"
+          }
+        ],
+        "salesOffering": {
+          "id": "598568342",
+          "upc": "0765847000660",
+          "upcType": "UPC_A",
+          "name": "AK SNOW LEG",
+          "receiptName": "AK SNOW LEG",
+          "description": "AK SNOW LEG",
+          "shortDescription": "AK SNOW LEG",
+          "pricingType": "REGULAR",
+          "department": {
+            "id": 93
+          },
+          "replenishmentType": "QUANTITY",
+          "foodStampEligible": true
+        }
+      },
+      {
+        "id": "46b0bcd3-fb26-36ca-a316-fc3c07e33e53",
+        "entryTime": "2023-08-09T17:43:09-05:00",
+        "lineNumber": 12,
+        "quantity": 0,
+        "uom": "EACH",
+        "subtotal": 0.0,
+        "total": 0,
+        "status": "VOID",
+        "entryMethod": "SCANNED",
+        "businessUnit": {
+          "number": 71,
+          "country": {
+            "countryCode": "US"
+          }
+        },
+        "price": {
+          "amount": 1.88,
+          "extendedAmount": 0,
+          "embeddedAmount": 0,
+          "unitCost": 1.88
+        },
+        "tax": [
+          {
+            "code": "1",
+            "description": "TAX1"
+          }
+        ],
+        "salesOffering": {
+          "id": "0009595583",
+          "upc": "0049000050230",
+          "upcType": "UPC_A",
+          "name": "BARQS",
+          "receiptName": "BARQS",
+          "description": "BARQS",
+          "shortDescription": "BARQS",
+          "pricingType": "REGULAR",
+          "department": {
+            "id": 95
+          },
+          "replenishmentType": "QUANTITY",
+          "discountable": true,
+          "foodStampEligible": true
+        }
+      },
+      {
+        "id": "f344ab43-0a56-3d5e-bbb4-8c6c316f1ba0",
+        "entryTime": "2023-08-09T17:43:16-05:00",
+        "lineNumber": 13,
+        "quantity": 0,
+        "uom": "EACH",
+        "subtotal": 0.0,
+        "total": 0,
+        "status": "VOID",
+        "entryMethod": "SCANNED",
+        "businessUnit": {
+          "number": 71,
+          "country": {
+            "countryCode": "US"
+          }
+        },
+        "price": {
+          "amount": 1.16,
+          "extendedAmount": 0,
+          "embeddedAmount": 0,
+          "unitCost": 1.16
+        },
+        "tax": [
+          {
+            "code": "1",
+            "description": "TAX1"
+          }
+        ],
+        "salesOffering": {
+          "id": "0009549195",
+          "upc": "0078000122460",
+          "upcType": "UPC_A",
+          "name": "DIET SUNKIST",
+          "receiptName": "DIET SUNKIST",
+          "description": "DIET SUNKIST",
+          "shortDescription": "DIET SUNKIST",
+          "pricingType": "ROLLBACK_ADMATCH",
+          "department": {
+            "id": 95
+          },
+          "replenishmentType": "QUANTITY",
+          "discountable": true,
+          "foodStampEligible": true
+        }
+      },
+      {
+        "id": "a4d5562d-50bc-3f12-be59-8444eb023fc4",
+        "entryTime": "2023-08-09T17:43:16-05:00",
+        "lineNumber": 14,
+        "quantity": 0,
+        "uom": "EACH",
+        "subtotal": 0.0,
+        "total": 0,
+        "status": "VOID",
+        "entryMethod": "SCANNED",
+        "businessUnit": {
+          "number": 71,
+          "country": {
+            "countryCode": "US"
+          }
+        },
+        "price": {
+          "amount": 1.16,
+          "extendedAmount": 0,
+          "embeddedAmount": 0,
+          "unitCost": 1.16
+        },
+        "tax": [
+          {
+            "code": "1",
+            "description": "TAX1"
+          }
+        ],
+        "salesOffering": {
+          "id": "0009549195",
+          "upc": "0078000122460",
+          "upcType": "UPC_A",
+          "name": "DIET SUNKIST",
+          "receiptName": "DIET SUNKIST",
+          "description": "DIET SUNKIST",
+          "shortDescription": "DIET SUNKIST",
+          "pricingType": "ROLLBACK_ADMATCH",
+          "department": {
+            "id": 95
+          },
+          "replenishmentType": "QUANTITY",
+          "discountable": true,
+          "foodStampEligible": true
+        }
+      },
+      {
+        "id": "65b8c226-0e21-3080-a27c-0bc85474b9c4",
+        "entryTime": "2023-08-09T17:43:16-05:00",
+        "lineNumber": 15,
+        "quantity": 0,
+        "uom": "EACH",
+        "subtotal": 0.0,
+        "total": 0,
+        "status": "VOID",
+        "entryMethod": "SCANNED",
+        "businessUnit": {
+          "number": 71,
+          "country": {
+            "countryCode": "US"
+          }
+        },
+        "price": {
+          "amount": 1.16,
+          "extendedAmount": 0,
+          "embeddedAmount": 0,
+          "unitCost": 1.16
+        },
+        "tax": [
+          {
+            "code": "1",
+            "description": "TAX1"
+          }
+        ],
+        "salesOffering": {
+          "id": "0009549195",
+          "upc": "0078000122460",
+          "upcType": "UPC_A",
+          "name": "DIET SUNKIST",
+          "receiptName": "DIET SUNKIST",
+          "description": "DIET SUNKIST",
+          "shortDescription": "DIET SUNKIST",
+          "pricingType": "ROLLBACK_ADMATCH",
+          "department": {
+            "id": 95
+          },
+          "replenishmentType": "QUANTITY",
+          "discountable": true,
+          "foodStampEligible": true
+        }
+      },
+      {
+        "id": "8fe2dc7a-2c4f-32c4-aa05-64a71d169d20",
+        "entryTime": "2023-08-09T17:43:30-05:00",
+        "lineNumber": 16,
+        "quantity": 0,
+        "uom": "EACH",
+        "subtotal": 0.0,
+        "total": 0,
+        "status": "VOID",
+        "entryMethod": "SCANNED",
+        "businessUnit": {
+          "number": 71,
+          "country": {
+            "countryCode": "US"
+          }
+        },
+        "price": {
+          "amount": 5.26,
+          "extendedAmount": 0,
+          "embeddedAmount": 0,
+          "unitCost": 5.26
+        },
+        "tax": [
+          {
+            "code": "1",
+            "description": "TAX1"
+          }
+        ],
+        "salesOffering": {
+          "id": "598568342",
+          "upc": "0765847000660",
+          "upcType": "UPC_A",
+          "name": "AK SNOW LEG",
+          "receiptName": "AK SNOW LEG",
+          "description": "AK SNOW LEG",
+          "shortDescription": "AK SNOW LEG",
+          "pricingType": "REGULAR",
+          "department": {
+            "id": 93
+          },
+          "replenishmentType": "QUANTITY",
+          "foodStampEligible": true
+        }
+      },
+      {
+        "id": "902ce3c3-b4ee-3e75-afb1-2e4eeaedb408",
+        "entryTime": "2023-08-09T17:43:37-05:00",
+        "lineNumber": 17,
+        "quantity": 0,
+        "uom": "EACH",
+        "subtotal": 0.0,
+        "total": 0,
+        "status": "VOID",
+        "entryMethod": "SCANNED",
+        "businessUnit": {
+          "number": 71,
+          "country": {
+            "countryCode": "US"
+          }
+        },
+        "price": {
+          "amount": 4.87,
+          "extendedAmount": 0,
+          "embeddedAmount": 0,
+          "unitCost": 4.87
+        },
+        "tax": [
+          {
+            "code": "1",
+            "description": "TAX1"
+          }
+        ],
+        "salesOffering": {
+          "id": "0009271874",
+          "upc": "0031200202980",
+          "upcType": "UPC_A",
+          "name": "OS CRAN GRP",
+          "receiptName": "OS CRAN GRP",
+          "description": "OS CRAN GRP",
+          "shortDescription": "OS CRAN GRP",
+          "pricingType": "REGULAR",
+          "department": {
+            "id": 95
+          },
+          "replenishmentType": "QUANTITY",
+          "discountable": true,
+          "foodStampEligible": true
+        }
+      },
+      {
+        "id": "4fe18f2d-59d7-3795-9f65-9b884f0ff127",
+        "entryTime": "2023-08-09T17:43:43-05:00",
+        "lineNumber": 18,
+        "quantity": 0,
+        "uom": "EACH",
+        "subtotal": 0.0,
+        "total": 0,
+        "status": "VOID",
+        "entryMethod": "SCANNED",
+        "businessUnit": {
+          "number": 71,
+          "country": {
+            "countryCode": "US"
+          }
+        },
+        "price": {
+          "amount": 3.42,
+          "extendedAmount": 0,
+          "embeddedAmount": 0,
+          "unitCost": 3.42
+        },
+        "tax": [
+          {
+            "code": "1",
+            "description": "TAX1"
+          }
+        ],
+        "salesOffering": {
+          "id": "553988173",
+          "upc": "0078742351860",
+          "upcType": "UPC_A",
+          "name": "GV WHOLE GAL",
+          "receiptName": "GV WHOLE GAL",
+          "description": "GV WHOLE GAL",
+          "shortDescription": "GV WHOLE GAL",
+          "pricingType": "REGULAR",
+          "department": {
+            "id": 90
+          },
+          "replenishmentType": "QUANTITY",
+          "foodStampEligible": true
+        }
+      },
+      {
+        "id": "16ba9840-cfb7-3ab7-bb5a-4c637b277f9b",
+        "entryTime": "2023-08-09T17:43:44-05:00",
+        "lineNumber": 19,
+        "quantity": 0,
+        "uom": "EACH",
+        "subtotal": 0.0,
+        "total": 0,
+        "status": "VOID",
+        "entryMethod": "SCANNED",
+        "businessUnit": {
+          "number": 71,
+          "country": {
+            "countryCode": "US"
+          }
+        },
+        "price": {
+          "amount": 3.42,
+          "extendedAmount": 0,
+          "embeddedAmount": 0,
+          "unitCost": 3.42
+        },
+        "tax": [
+          {
+            "code": "1",
+            "description": "TAX1"
+          }
+        ],
+        "salesOffering": {
+          "id": "553988173",
+          "upc": "0078742351860",
+          "upcType": "UPC_A",
+          "name": "GV WHOLE GAL",
+          "receiptName": "GV WHOLE GAL",
+          "description": "GV WHOLE GAL",
+          "shortDescription": "GV WHOLE GAL",
+          "pricingType": "REGULAR",
+          "department": {
+            "id": 90
+          },
+          "replenishmentType": "QUANTITY",
+          "foodStampEligible": true
+        }
+      },
+      {
+        "id": "831e2c42-ccc1-3532-9e39-a5323733fa22",
+        "entryTime": "2023-08-09T17:44:05-05:00",
+        "lineNumber": 20,
+        "quantity": 0,
+        "uom": "EACH",
+        "subtotal": 0.0,
+        "total": 0,
+        "status": "VOID",
+        "entryMethod": "SCANNED",
+        "businessUnit": {
+          "number": 71,
+          "country": {
+            "countryCode": "US"
+          }
+        },
+        "price": {
+          "amount": 6.0,
+          "extendedAmount": 0,
+          "embeddedAmount": 0,
+          "unitCost": 6.0
+        },
+        "tax": [
+          {
+            "code": "1",
+            "description": "TAX1"
+          }
+        ],
+        "salesOffering": {
+          "id": "655474684",
+          "upc": "0073187012790",
+          "upcType": "UPC_A",
+          "name": "HTH TEST 35",
+          "receiptName": "HTH TEST 35",
+          "description": "HTH TEST 35",
+          "shortDescription": "HTH TEST 35",
+          "pricingType": "CLEARANCE",
+          "department": {
+            "id": 16
+          },
+          "replenishmentType": "QUANTITY",
+          "discountable": true
+        }
+      },
+      {
+        "id": "94d94891-a666-30cb-a6f8-c06611129b27",
+        "entryTime": "2023-08-09T17:44:11-05:00",
+        "lineNumber": 21,
+        "quantity": 0,
+        "uom": "EACH",
+        "subtotal": 0.0,
+        "total": 0,
+        "status": "VOID",
+        "entryMethod": "SCANNED",
+        "businessUnit": {
+          "number": 71,
+          "country": {
+            "countryCode": "US"
+          }
+        },
+        "price": {
+          "amount": 2.56,
+          "extendedAmount": 0,
+          "embeddedAmount": 0,
+          "unitCost": 2.56
+        },
+        "tax": [
+          {
+            "code": "1",
+            "description": "TAX1"
+          }
+        ],
+        "salesOffering": {
+          "id": "0009548101",
+          "upc": "0078000052460",
+          "upcType": "UPC_A",
+          "name": "A W ROOT BR",
+          "receiptName": "A W ROOT BR",
+          "description": "A W ROOT BR",
+          "shortDescription": "A W ROOT BR",
+          "pricingType": "REGULAR",
+          "department": {
+            "id": 95
+          },
+          "replenishmentType": "QUANTITY",
+          "discountable": true,
+          "foodStampEligible": true
+        }
+      },
+      {
+        "id": "1346293f-66d8-36b5-85e2-aded7ae8cc1c",
+        "lineNumber": 22,
+        "quantity": 1,
+        "uom": "EACH",
+        "subtotal": 0.0,
+        "total": 0.0,
+        "status": "SOLD",
+        "entryMethod": "SCANNED",
+        "businessUnit": {
+          "number": 71,
+          "country": {
+            "countryCode": "US"
+          }
+        },
+        "price": {
+          "amount": 0.0,
+          "extendedAmount": 0.0,
+          "embeddedAmount": 0,
+          "unitCost": 0.0
+        },
+        "tax": [
+          {
+            "code": "1",
+            "description": "TAX1"
+          }
+        ],
+        "salesOffering": {
+          "id": "0009453344",
+          "upc": "0874586003370",
+          "upcType": "UNKNOWN",
+          "name": "Item_1",
+          "receiptName": "Item_1",
+          "description": "Item_1",
+          "shortDescription": "Item_1",
+          "pricingType": "REGULAR",
+          "department": {
+            "id": 99
+          },
+          "replenishmentType": "QUANTITY"
+        }
+      }
+    ],
+    "salesOrderFooter": {
+      "originSystem": "EDGE",
+      "originChannel": "SELF_CHECKOUT",
+      "orderFulfillment": [
+        {
+          "type": "PICKUP",
+          "source": "PHYSICAL_STORE"
+        }
+      ],
+      "clientDescription": "Cloud Self Checkout",
+      "legacy_visitSubType": "161",
+      "associatedEvents": [
+        {
+          "eventId": "fde56ce1-9e47-4c57-9ab1-e4e58a58b77e",
+          "eventType": "JOURNAL"
+        },
+        {
+          "eventId": "fbf51be9-0cc9-4892-acc5-cb67a96caed3",
+          "eventType": "WIC_REVERSAL",
+          "eventReferences": [
+            {
+              "id": [
+                "96578793-a533-3714-afda-7b27f3c507f0",
+                "44e342d5-6146-3515-aa90-133aa73b2e84"
+              ],
+              "idType": "PAYMENT"
+            }
+          ]
+        }
+      ]
+    },
+    "eventId": "47ad3e2b-c763-4eda-a635-cf80b9101f2e"
+  }
+}

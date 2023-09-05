@@ -1,4 +1,4 @@
-package com.rockthejvm.playground.part1recap
+package com.rockthejvm.part1recap
 
 object variance {
 
